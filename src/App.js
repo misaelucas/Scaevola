@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import Navbar from './components/Navbar'
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Bookkeeper</h1>
-      
+      <Navbar />
     </div>
   );
 }
+
+export default App;
